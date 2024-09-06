@@ -1,0 +1,121 @@
+.fondo{
+    background-color: rgb(223, 247, 237);
+}
+
+.title{
+    font-size: 2em;
+    color: rgb(80, 138, 128);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#principal{
+    font-size: 4em;
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#parrafo{
+    width: 85vw;
+    margin: auto;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fuente{
+    color: rgb(54, 138, 141);
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.info{
+    border: 2px solid rgb(161, 158, 158);
+    width: 600px;
+    height: 250px;
+    margin-top: 1em;
+    padding: 2em;
+    padding-bottom: 5em;
+    border-radius: 15%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.info:hover{
+    background-color: rgb(149, 235, 235);
+}
+
+
+.subtitle{
+    font-size: 1.5em;
+    color: rgb(80, 138, 128);
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#infoContainer{
+    width: 90vw;
+    margin: auto;
+    margin-top: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    
+}
+
+.pie{
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictureMain{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos{
+    width: 200px;
+}
+
+.logo{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.siglas{
+    font-size: 2em;
+    color: rgb(35, 53, 50);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logosContainer{
+    border: 3px solid rgb(223, 247, 237);
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 1em;
+    padding: 2em;
+    border-radius: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logosContainer:hover{
+     background-color: rgb(126, 240, 248);
+}
+    

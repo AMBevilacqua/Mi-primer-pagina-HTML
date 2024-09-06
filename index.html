@@ -4,62 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="fondo">
+    
     <header>
-        <h1>Mi primera pagina web</h1>
+        <h1 class="title" id="principal">Mi primera página web</h1>
     </header>
     
     <main>
-
-        <img src="./miPagina.jpg"/>
+        
+        <div >
+          <img src="img/miPagina.jpg" class="pictureMain"/>
+        </div>
+        
         <section>
-                <h2>Informacion personal</h2>
+            
             <article>
-                <h3>Sobre mi</h3>
-                <div>
-                    <p>Me llamo Agustin Matias Bevilacqua, tengo 36 años y vivo en Argentna provincia de Buenos Aires.</p>
-                    <p>Soy nuevo en el mundo de la programacion comence a estudiar en el año 2021 en la UNLZ sede DON BOSCO una tecnicatura
-                       en programacion de computadores.
-                    </p>
-                    <p>Tome esta decision de comenzar a estudiar para una mejora personal en lo que respecta al desarollo intelectual y
-                      para acceder a mejoras y oportunidades laborales. Trabaje mas de 10 años en administracion
-                      realizando tareas administrativas, reportes en power BI e ingreso y validacion de datos. 
-                    </p>
-                    <p>
-                        Soy una persona proactiva y confiable, buscando la posibilidad de continuar desarrollando mi crecimiento profesional en el área de sistemas.  
+                
+                <div id="parrafo">
+                    <h3 class="title">Sobre mi</h3>
+                    <p class="fuente">Me llamo Agustin Matías Bevilacqua, tengo 36 años y vivo en Argentina provincia de Buenos Aires.
+                        Soy nuevo en el mundo de la programación comencé a estudiar en el año 2021 en la UNLZ sede DON BOSCO una tecnicatura
+                        en programación de computadores.
+                        Tome esta decisión de comenzar a estudiar para una mejora personal en lo que respecta al desarrolló intelectual y
+                        para acceder a mejoras y oportunidades laborales. Trabaje más de 10 años en administración
+                        realizando tareas administrativas, reportes en power BI e ingreso y validación de datos. 
+                        Soy una persona proactiva y confiable, buscando la posibilidad de continuar desarrollando mi crecimiento profesional en el área de sistemas. 
                     </p>
                 </div>
                 
             </article>
-            <hr>
+            
             </article>
-                <h3>Objetivos</h3>
-                <p>Mis objetivos en la cursada de Henry son:</p>
-                <ol>
-                    <li>Seguir aumentando mi concimiento en desarrollo y programacion</li>
-                    <li>Superar limites y obstaculos</li>
-                    <li>Aprender a resolver las problematicas que se presenten</li>
-                    <li>Poder unirme a un equipo dinamico en donde pueda colaborar en la consecucion de objetivos compartidos</li>
-                </ol>
-            </article>
-            <hr>
-            </article>
-                <h3>Cosas que me gustan</h3>
-                <p>Las siguientes cosas son las que me gusta hacer en mi tiempo libre</p>
+               <div id="infoContainer">
+              
+                <div class="info">
+                 <h3 class="subtitle"> Mis objetivos</h3>
+                 <p class="fuente">Mis objetivos en la cursada de Henry son:</p>
+                 <ol>
+                    <li class="fuente">Seguir aumentando mi conocimiento en desarrollo y programación</li>
+                    <li class="fuente">Superar límites y obstáculos</li>
+                    <li class="fuente">Aprender a resolver las problemáticas que se presenten</li>
+                    <li class="fuente">Poder unirme a un equipo dinámico en donde pueda colaborar en la consecución de objetivos compartidos</li>
+                 </ol>
+               </div>
+            
+               <div class="info">
+                <h3 class="subtitle">Cosas que me gustan</h3>
+                <p class="fuente">Las siguientes cosas son las que me gusta hacer en mi tiempo libre</p>
                 <ul>
-                    <li>Pasear al aire libre</li>
-                    <li>Juntarme con mis amigos</li>
-                    <li>Videojuegos</li>
-                    <li>Ir al Cine</li>
+                    <li class="fuente">Pasear al aire libre</li>
+                    <li class="fuente">Juntarme con mis amigos</li>
+                    <li class="fuente">Videojuegos</li>
+                    <li class="fuente">Ir al Cine</li>
                 </ul>
+               </div>
+            
+              </div>
             </article>
         </section>
+        <article>
+          <div id="logosContainer">
+          
+              <div class="logo">
+                 <h2 class="siglas">HTML</h2>
+                 <img src="img/html5-logo-svgrepo-com.svg" class="logos"/>
+              </div>
+              <div class="logo">
+                 <h2 class="siglas">JavaScript</h2>
+                 <img src="img/javascript-fill-svgrepo-com.svg" class="logos" />
+              </div>
+              <div class="logo">
+                 <h2 class="siglas">CSS</h2>
+                 <img src="img/css3-shiled-svgrepo-com.svg" class="logos"/>
+              </div>
+         
+          </div>
+       </article>
+   
+   
     </main>
     
     <footer>
-        <h4>Contacto</h4>
-        <a href="./contacto.html">Enlace de contacto</a>
+       <div class="pie">
+         <h4 class="pie2">Si desea ponerse en contacto haga click en el siguiente link</h4>
+         <a href="./contacto.html">Enlace de contacto</a>
+       </div>
     </footer>
     
         

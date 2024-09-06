@@ -4,39 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styleContacto.css">
 </head>
 <body>
     <header>
+      <div class="principal">
         <h1>Formulario de contacto</h1>
+      </div>
     </header>
         <main>
-            <img src="./form.jpg"/>
-            <div>
-                <p>
-                    Por favor complete el siguiente formulario para ponerme en contacto a la brevedad.
-                </p>
-            </div>
-            
+            <div id="formContenedor">
             <form>
+              <img src="img/form-svgrepo-com.svg" class="logo"/>
               
               <div>
-                <input type="text" name="nombre" placeholder="Nombre"/>
+                <input type="text" name="nombre" placeholder="Nombre" id="text1"/>
               </div>
               
               <div>
-                <input type="text" name="apellido" placeholder="Apellido"/>
+                <input type="text" name="apellido" placeholder="Apellido" id="text2"/>
               </div>
               
               <div>
-                <input type="text" name="telefono" placeholder="Telefono"/>
+                <input type="text" name="telefono" placeholder="Teléfono" id="text3"/>
               </div>
 
               <div>
-                <input type="text" name="mail" placeholder="Correo"/>
+                <input type="text" name="mail" placeholder="Correo" id="text4"/>
               </div>
-              
-              <button>ENVIAR</button>
-                
+              <div class="boton">
+                <button>ENVIAR</button>
+              </div>
+            </div>  
 
             </form>
         </main>
